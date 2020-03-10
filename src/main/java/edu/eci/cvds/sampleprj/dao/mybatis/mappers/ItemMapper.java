@@ -7,10 +7,7 @@ import org.apache.ibatis.annotations.Param;
 
 import edu.eci.cvds.samples.entities.Item;
 
-/**
- *
- * @author 2106913
- */
+
 public interface ItemMapper {
     
     
