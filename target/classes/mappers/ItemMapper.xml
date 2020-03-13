@@ -22,7 +22,8 @@
         i.genero ,        
         ti.id as tipoitem_id,
         ti.descripcion as tipoitem_descripcion 
-        from VI_ITEMS as i ,VI_TIPOITEM as ti
+        from VI_ITEMS as i 
+        left join VI_TIPOITEM as ti on i.TIPOITEM_id=ti.id ;
         
     </select>
     

@@ -76,15 +76,15 @@ public class MyBatisExample {
         //Para la ejecucion final de las pruebas quitar el comentario de la siguiente instruccion
         //cm.agregarItemRentadoACliente(5, 1, parseDate("2019-03-12"), parseDate("2019-04-12"));
         ItemMapper im= sqlss.getMapper(ItemMapper.class);
-        TipoItem tipoIt= new TipoItem(3,"Peliculas");
-        Item it = new Item(tipoIt,9999,"NuevoItemxDv4_0","Este es el nuevo Item de Marcelo v4_0",parseDate("2019-03-12"),1234, "formatoxD4_0","genero4_0 final"); 
+        //TipoItem tipoIt= new TipoItem(3,"Peliculas");
+        //Item it = new Item(tipoIt,9999,"NuevoItem","Este es el nuevo Item ",parseDate("2019-03-12"),9999, "formatoxD4_0","genero4_0 final"); 
         //Para la ejecucion final de las pruebas quitar el comentario de la siguiente instruccion
         //im.insertarItem(it);
-        //cm...
+        
         imprimirEspacios("Items");
         System.out.println(im.consultarItems());
         imprimirEspacios("Items Por ID");
-        System.out.println(im.consultarItem(888));
+        //System.out.println(im.consultarItem(9999));
         
 
         sqlss.commit();
