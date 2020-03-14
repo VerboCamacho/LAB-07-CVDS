@@ -13,6 +13,8 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ 
+ * Ayuda y coloboracion de https://github.com/juancamilo399/cvds_lab7
  */
 package edu.eci.cvds.samples.services.client;
 
